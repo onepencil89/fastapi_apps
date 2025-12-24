@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투두 App</title>
+    {% block style%}
+    <link rel="stylesheet" href="/static/css/main.css">
+    {% endblock style%}
+</head>
+<body>
+{% block content %}  <!-- override 자식페이지에서 재정의 하는 블럭 -->
+{% endblock content %}
+</body>
+</html>
